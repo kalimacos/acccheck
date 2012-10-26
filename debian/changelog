@@ -1,3 +1,9 @@
+acccheck (0.2.1-1kali2) kali; urgency=low
+
+  * Fixed installation
+
+ -- dookie <dookie@kali.org>  Fri, 26 Oct 2012 08:05:55 -0600
+
 acccheck (0.2.1-1kali1) kali; urgency=low
 
   * Kali Version
