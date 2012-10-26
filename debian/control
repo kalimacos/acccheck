@@ -1,15 +1,18 @@
 Source: acccheck
-Section: unknown
+Section: net
 Priority: extra
-Maintainer: dookie <dookie@kali.localdomain>
+Maintainer: dookie <dookie@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/acccheck.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/acccheck.git;a=summary
+Homepage: http://labs.portcullis.co.uk/application/acccheck/
+Vcs-Git: ssh://git@git.kali.org/packages/acccheck.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/acccheck.git;a=summary
 
 Package: acccheck
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}, perl, smbclient
+Description: Password dictionary attack tool for SMB
+ The tool is designed as a password dictionary attack tool that 
+ targets windows authentication via the SMB protocol. It is 
+ really a wrapper script around the 'smbclient' binary, and as 
+ a result is dependent on it for its execution.

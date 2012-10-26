@@ -1,0 +1,3 @@
+version=3
+
+http://labs.portcullis.co.uk/application/acccheck/ .*/acccheck-(.*)\.tar\.gz

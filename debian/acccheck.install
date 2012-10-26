@@ -1,0 +1,3 @@
+debian/kali-acccheck.desktop usr/share/applications/
+acccheck.pl usr/bin/
+
