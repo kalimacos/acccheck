@@ -1,3 +1,9 @@
+acccheck (0.2.1-1kali3) kali; urgency=low
+
+  * Remove desktop file
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 14 Dec 2012 18:59:06 -0500
+
 acccheck (0.2.1-1kali2) kali; urgency=low
 
   * Fixed installation
