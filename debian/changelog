@@ -1,3 +1,9 @@
+acccheck (0.2.1-1kali4) kali; urgency=low
+
+  * Patched to fix the usage output (Closes: 0001255)
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 20 May 2014 13:45:19 -0600
+
 acccheck (0.2.1-1kali3) kali; urgency=low
 
   * Remove desktop file
